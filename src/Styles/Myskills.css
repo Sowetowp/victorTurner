@@ -1,0 +1,101 @@
+.mscont{
+    background-color: rgb(35, 44, 65);
+    /* padding: 25px; */
+    z-index: 7;
+    /* border-radius: 10px; */
+    position: relative;
+    margin-top: 10px;
+    transition: margin-top 0.5s linear;
+}
+.mscont:hover{
+    margin-top: 5px;
+}
+.msback{
+    width: 132px;
+    height: 132px;
+    /* background-color: rgba(113, 245, 208, 0.157); */
+    position: relative;
+    margin: auto;
+}
+.outer{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    /* background-color: rgba(113, 245, 208, 0.157); */
+    /* box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), 6px 6px 10px -1px rgba(225,225,225,0.7); */
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner{
+    width: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 44, 65);
+    height: 108px;
+    border-radius: 50%;
+    /* box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2), inset 4px 4px 6px -1px rgba(225,225,225,0.7), -0.5px -0.5px 0px rgba(225,225,225,1), 0.5px 0.5px 0px rgba(0,0,0,0.15), 0px 12px 10px -10px rgba(0,0,0,0.05); */
+}
+#number{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+circle{
+    fill: none;
+    stroke: url(#gradientcolor);
+    stroke-width: 10px;
+    stroke-dasharray: 432;
+    stroke-dashoffset: 432;
+    animation: anim 5s linear forwards;
+}
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 93.6;
+    }
+}
+.mysvg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.msbed{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.ful{
+    width: 100%;
+    /* background-color: rgba(113, 245, 208, 0.378); */
+    /* border-radius: 10px; */
+    height: 8px;
+    margin-bottom: 20px;
+}
+.se{
+    /* width: 95%; */
+    /* background-color: rgb(76, 206, 163); */
+    /* border-radius: 10px; */
+    height: 8px;
+    transition: width 5s;
+}
+.zero{
+    width: 0%;
+    background-color: rgb(13, 252, 172);
+    border-radius: 10px;
+    height: 15px;
+}
+.prog1 p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.prog1 span{
+    /* color: rgb(13, 252, 172); */
+}
+@media screen and (max-width: 576px) {
+}

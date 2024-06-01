@@ -1,0 +1,51 @@
+.log{
+    border-radius: 50%;
+    background-color: rgba(51, 67, 62, 0.519);
+}
+.log svg{
+    padding: 12px;
+    width: 80px;
+    height: 80px;
+}
+.logp{
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(10, 43, 74);
+}
+.fedd{
+    background-color: rgb(6, 33, 59);
+    /* border-radius: 20px; */
+    position: relative;
+    z-index: 7;
+    margin: 2px;
+    padding: 20px;
+    transition: margin-top 0.8s linear;
+}
+.fdev{
+    color: white;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.workt{
+    color: rgb(219, 219, 240);
+    font-size: 20px;
+    font-weight: 600;
+}
+.workbf{
+    color: rgb(219, 219, 240);
+    font-size: 15px;
+}
+.lip{
+    color: rgb(212, 212, 243 );
+    margin-top: 20px;
+    font-size: 14px;
+    min-height: 128px;
+    font-family: 'Lato', sans-serif;
+}
+/* @media screen and (max-width: 1140px) {
+    
+} */
+.fedd:hover{
+    margin-top: -4px;
+}

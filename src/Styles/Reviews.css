@@ -1,0 +1,122 @@
+.crimg{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    object-position: 3% 20%;
+    border: solid;
+    /* border-color: rgb(8, 254, 192); */
+    background-color: gray;
+}
+.crfs{
+    /* border-radius: 10px; */
+    padding: 20px;
+    border: none;
+    background-color: rgb(14, 34, 52);
+    margin: 2px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 7;
+    min-height: 300px;
+}
+.reviewp1{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.reviewp3{
+    color: white;
+    font-size: 16px;
+    margin-top: 2px;
+    font-family: 'Lato', sans-serif;
+}
+.reviewp2{
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.crrow{
+    height: max-content;
+}
+.star{
+    color: rgb(255, 170, 0);
+    margin-top: 8px;
+}
+@media screen and (max-width: 1024px) {
+  .hide{
+      display: none;
+    }
+}
+
+.revbutton {
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    width: 35px;
+    height: 35px;
+    /* opacity: 0.75; */
+    border: 2px solid #e7eae8;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  
+  .revbutton:hover {
+    color: rgb(8, 254, 192);
+    border-color: rgb(8, 254, 192);
+    animation: bounce_513 1s ease;
+  }
+  
+  @keyframes bounce_513 {
+    0%,
+      100% {
+      transform: translateX(0);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+  
+    50% {
+      transform: translateX(25%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+  
+  .revbutton2 {
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    width: 35px;
+    height: 35px;
+    /* opacity: 0.75; */
+    border: 2px solid #e7eae8;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .revbutton2:hover {
+    /* color: rgb(8, 254, 192); */
+    /* border-color: rgb(8, 254, 192); */
+    animation: bounce_5132 1s ease;
+  }
+  
+  @keyframes bounce_5132 {
+    0%,
+      100% {
+      transform: translateX(0);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+  
+    50% {
+      transform: translateX(-25%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+.revbtndiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}

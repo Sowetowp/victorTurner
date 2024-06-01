@@ -1,0 +1,169 @@
+.drewo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 4px; */
+    /* background: rgba(20, 223, 166, 0.171); */
+    /* box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2); */
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    /* height: 50px;
+    width: 190px; */
+    /* margin-top: 30px; */
+}
+  
+.drewo:after {
+    content: " ";
+    width: 100%;
+    height: 0%;
+    background: white;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    top: 0;
+}
+  
+.drewo:hover::after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+  
+.drewo span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    /* color: rgb(20, 223, 166); */
+    font-size: 13px;
+    font-weight: 600;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+}
+
+.drewo:hover span {
+    color: black !important;
+    animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+.workType{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+.workType span{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.canvasImgContainer{
+    position: relative;
+}
+.canvasImgCover{
+    position: absolute;
+    width: 0%;
+    background-color: rgba(29, 36, 53, 0.747);
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.6s ease-in-out;
+}
+.workCanvas{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 90px;
+}
+.canvasImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    /* object-position: 5% 5%; */
+}
+.workCanvas h4{
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+.workCanvas h6{
+    color: rgb(212, 212, 243);
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+.bgCanvas{
+    /* border-radius: 8px; */
+    margin-top: 30px;
+    transition: margin-top 1s ease;
+    background-color: rgba(29, 36, 53, 0.509);
+    border: solid 1px rgb(35, 44, 65);
+}
+.btngit {
+    visibility: hidden;
+    display: grid;
+    place-items: center;
+    /* background: rgb(20, 223, 166); */
+    padding: 4px;
+    /* height: fit-content;
+    margin: auto; */
+    border-radius: 50%;
+    /* box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7); */
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.btngit:hover {
+    /* box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px rgba(255,255,255,1),
+    0.5px 0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05); */
+    border: none;
+    transform: translateY(0.5em);
+}
+
+.btngit svg {
+    height: 15px;
+    width: 15px;
+    transition: transform 0.5s;
+}
+
+.btngit:hover svg {
+    transform: scale(0.9) rotate(360deg);
+    /* fill: #333333; */
+}
+.bgCanvas:hover{
+    margin-top: 20px;
+}
+.bgCanvas:hover .canvasImgCover{
+    width: 100%;
+}
+.bgCanvas:hover .btngit{
+    visibility: visible;
+}
+.loadWrapper button{
+    margin: auto;
+    background-color: rgb(20, 223, 166);
+}
+.loadWrapper span{
+    color: white;
+    padding: 10px;
+}

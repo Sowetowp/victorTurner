@@ -1,0 +1,20 @@
+.fnavv button{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: rgb(11 18 35);
+    border-radius: 7px;
+    /* border-color: rgb(31, 31, 32); */
+    border: none;
+    box-shadow: 0px 0px 1px  gray;
+}
+.bfoot{
+    background-color: rgb(11 18 35);
+    padding: 20px;
+}
+.bfoot p{
+    color: rgb(219, 219, 240);
+    margin-top: 0.7%;
+}

@@ -1,0 +1,39 @@
+.menu{
+    writing-mode: vertical-rl;
+    height: 99.5%;
+    margin: auto;
+    transform: rotate(180deg);
+    font-size: 5.5vw;
+    font-weight: 800;
+    color: white;
+}
+.mrow{
+    height: 100vh;
+}
+.mmd{
+    background-color: rgb(15 23 42);
+    position: absolute;
+    width: 95%;
+}
+@media screen and (max-width: 1140px) {
+    .mmd{
+        width: 100%;
+    }
+}
+.mmd a{
+    text-decoration: none;
+}
+.menu i{
+    /* color: rgb(20, 223, 166); */
+    font-style: normal;
+}
+.borde{
+    border: solid;
+    border-color: rgb(37, 37, 37);
+    border-width: 0.1px;
+}
+@media screen and (max-width: 576px) {
+    .mmd{
+        display: none;
+    }
+}

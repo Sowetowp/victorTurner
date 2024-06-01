@@ -1,0 +1,217 @@
+.aboutme{
+    background-color: rgb(15 23 42);
+    overflow: hidden;
+    border: none;
+}
+.about{
+    position: absolute;
+    background: transparent;
+    font-size: 20vw;
+    font-weight: 700;
+    color: rgba(76, 137, 235, 0.105);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    user-select: none;
+}
+.am{
+    padding-top: 14vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+}
+.above{
+    z-index: 2;
+    position: relative;
+}
+.anime{
+    width: 140px;
+    margin: auto;
+    height: 5px;
+    /* background-color: rgba(113, 245, 208, 0.24); */
+    /* border-radius: 10px; */
+    margin-top: 5vh;
+}
+.move{
+    width: 5px;
+    height: 4.8px;
+    /* background-color: rgb(0, 255, 255); */
+    animation-name: example;
+    animation-duration: 2s;
+    position: relative;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* border-radius: 50%; */
+    animation-direction: normal;
+}
+@keyframes example {
+    from {left: 0%; top: 0%;}
+    to {left: calc(100% - 5px); top: 0%;}
+}
+@media screen and (max-width: 576px) {
+    .about{
+        margin-top: 17vh;
+    }
+}
+@media screen and (max-width: 667px) {
+    .about{
+        margin-top: 17vh;
+    }
+}
+
+.dre {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 6px; */
+    /* background: rgb(20, 223, 166); */
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    width: 190px;
+    margin-top: 30px;
+  }
+  
+  .dre:after {
+    content: " ";
+    width: 100%;
+    height: 0%;
+    background: white;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    top: 0;
+  }
+  
+  .dre:hover::after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .dre span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .dre:hover span {
+    color: black;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+}
+
+.anb2{
+    position: absolute;
+    height: 10px;
+    width: 30px;
+    animation: right 4s linear infinite reverse;
+}
+.anc2{
+    position: absolute;
+    height: 10px;
+    width: 30px;
+    animation: left 4s linear infinite normal;
+}
+.and2{
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    animation: down 4s linear infinite normal;
+}
+.ane2{
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    animation: top 4s linear infinite reverse;
+}
+.anaimg{
+    object-fit: cover;
+    object-position: 5% 5%;
+}
+@keyframes top {
+    from {top: 0%;}
+    to {top: calc(100% - 30px);}
+}
+@keyframes down {
+    from {top: 0%; left: calc(100% - 10px);}
+    to {top: calc(100% - 30px); left: calc(100% - 10px);}
+}
+@keyframes left {
+    from {top: calc(100% - 10px); left: calc(100% - 30px);}
+    to {top: calc(100% - 10px); left: 0%;}
+}
+@keyframes right {
+    from {left: calc(100% - 30px);}
+    to {left: 0%;}
+}
+.information{
+    padding: 20px;
+}
+.infoholder11{
+    display: flex;
+}
+.infoholder111 li{
+    font-weight: 600;
+    font-size: 20px;
+}
+.infoholder111 span{
+    color: white;
+}
+.information h3{
+    color: white;
+    font-weight: 700;
+}
+.infoholder112 ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%
+}
+.infoholder111 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    list-style: square;
+}
+.infoholder112 li{
+    font-weight: 400;
+    font-size: 17px;
+}
+@media screen and (max-width: 280px) {
+    .heoghtcon{
+        height: 250px !important;
+    }
+    .infoholder112 li{
+        font-size: 12px;
+    }
+    .infoholder111 li{
+        font-size: 15px;
+    }
+}

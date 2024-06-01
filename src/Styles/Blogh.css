@@ -1,0 +1,72 @@
+.bhome{
+    height: 50vh;
+    background-color: rgb(11 18 35);
+    background-image: url(../Assets/Images/background.png);
+    z-index: 1;
+    overflow-x: hidden;
+    position: relative;
+}
+.kkk{
+    z-index: 30;
+}
+.bblur{
+    position: absolute;
+    width: 100vw;
+    height: inherit;
+    background-color: rgba(11, 18, 35, 0.896);
+    z-index: 2;
+    left: -0.1px;
+}
+.binde{
+    position: relative;
+}
+.bhaa{
+    font-size: 38px;
+    font-weight: 800;
+    color: rgb(20, 223, 166);
+}
+.bhul i{
+    font-style: normal;
+    color: rgb(20, 223, 166);
+}
+.bhul a{
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.bhul button{
+   width: 150px;
+   padding: 10px;
+   margin-top: -10px;
+   background-color: rgb(20, 223, 166);
+   border-radius: 7px;
+   color: white;
+   font-size: 14px;
+   font-weight: 600;
+}
+.bhb{
+    position: relative;
+    z-index: 7;
+    text-align: center;
+    padding-top: 80px;
+}
+.bhb p{
+    color: rgb(20, 223, 166);
+    font-weight: 700;
+    font-size: 35px;
+}
+.bhbb{
+    display: flex;
+    justify-content: center;
+}
+.bhbb li{
+    margin: 5px;
+    color: rgb(20, 223, 166);
+}
+.bhbb i{
+    font-style: normal;
+    color: white;
+}
+.bhbb a{
+    text-decoration: none;
+}

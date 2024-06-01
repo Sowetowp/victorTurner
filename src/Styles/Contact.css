@@ -1,0 +1,163 @@
+.cup1{
+    color: white;
+    font-weight: 500;
+    font-size: 23px;
+}
+.conmd{
+    position: relative;
+    z-index: 9;
+}
+.cup2{
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.cu3{
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(26, 44, 60);
+    padding: 3%;
+    /* border-radius: 10px; */
+}
+.cuimg{
+    /* background-color: rgba(38, 125, 103, 0.271); */
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    height: fit-content;
+}
+.cu4{
+    margin-left: 20px;
+}
+.cu4 address{
+    color: white;
+}
+.cup3{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.cu3 a{
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.cu2 input{
+    width: 100%;
+    padding: 12px;
+    /* border-radius: 8px; */
+    background-color: rgb(16, 34, 50);
+    border: none;
+    /* outline-color: aquamarine; */
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+/* .cu2 input:hover{
+    border: solid 1px;
+}
+.cu2 input:focus{
+    border: solid 1px;
+} */
+.cu2 label{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+.cu2 textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(16, 34, 50);
+    /* border-radius: 8px; */
+    border: none;
+    min-height: 167px;
+    outline: none;
+    color: white;
+}
+/* .cu2 textarea:hover{
+    border: solid 1px;
+}
+.cu2 textarea:focus{
+    border: solid 1px;
+} */
+.cua1, .cua2{
+    font-family: 'Lato', sans-serif;
+}
+.cu2 button:active{
+    cursor: progress;
+}
+.cu2{
+    background-color: rgb(26, 44, 60);
+    /* border-radius: 10px; */
+    padding: 2%;
+}
+@media screen and (max-width: 576px) {
+    .cfo{
+        padding-top: 80px;
+    }
+}
+.cdre {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 8px; */
+    /* background: rgb(20, 223, 166); */
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    min-width: 110px;
+    min-height: 40px;
+    margin-top: 10px;
+  }
+  
+  .cdre:after {
+    content: " ";
+    width: 100%;
+    height: 0%;
+    background: white;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    top: 0;
+  }
+  
+  .cdre:hover::after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .cdre span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cdre:hover span {
+    color: black;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+}
