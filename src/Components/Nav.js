@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import "../Styles/Nav.css"
 import home from "../Assets/Images/home-17-svgrepo-com.svg"
-import dp from "../Assets/Images/"
+import dp from "../Assets/Images/WhatsApp Image 2024-05-30 at 15.17.43_50d486ad.jpg"
 import closer from "../Assets/Images/close-square-svgrepo-com.svg"
 import search from "../Assets/Images/search-svgrepo-com.svg"
 import about from "../Assets/Images/profile-round-1345-svgrepo-com.svg"
