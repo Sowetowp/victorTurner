@@ -99,7 +99,7 @@ const AboutMe = (props) => {
                                 </ul>
                             </div>
                         </div>
-                        <a style={{textDecoration:"none"}} href="https://drive.google.com/uc?export=download&id=1WBZ62McKD3S0XjQrCVE92CbTMDUnNGE6" download="cv.png">
+                        <a style={{textDecoration:"none"}} href="" download="cv.png">
                             <button className='dre' style={{background:`${prop1.length > 0 ? prop1 : hcolor ? hcolor : "rgb(20, 223, 166)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "6px"}}><span>DOWNLOAD RESUME</span></button>
                         </a>
                     </div>
