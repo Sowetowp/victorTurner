@@ -101,7 +101,7 @@ const Myresume = (props) => {
                   <p className='mrp3'>Received comprehensive education with focus on academics and extracurriculars, developed strong critical thinking and problem-solving skills</p>
                 </div>
               </div> */}
-              <div className='d-flex justify-content-start mrmo' data-aos="fade-up" data-aos-duration="1000">
+              <div className='d-flex justify-content-start mrmov' data-aos="fade-up" data-aos-duration="1000">
                 <div className='mrdur' style={{backgroundColor:`${prop2 && prop2.length > 0 ? prop2 : hcolor2 ? hcolor2 : "rgba(20, 223, 166, 0.171)"}`, borderRadius: typeof prop3 === "number" ? prop3 + "px" : typeof hrad === "number" ? hrad + "px" : "10px"}}><p>2018 - 2023</p></div>
                 <hr className='hrrr' style={{width: "30px", height: "4px"}}></hr>
                 <div className='hrd'>
